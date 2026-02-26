@@ -10,7 +10,7 @@ const KnowledgeAgentPage = () => {
     title: "Knowledge Agent Solutions",
     description:
       "Intelligent knowledge management and retrieval systems powered by AI to transform how you access, process, and utilize information.",
-    image: "/src/public/knowledge_agent.jpg",
+    image: "/knowledge_agent.jpg",
     icon: <Brain className="w-12 h-12" />,
     projects: [
       {
@@ -18,7 +18,7 @@ const KnowledgeAgentPage = () => {
         name: "RAG Based Chatbot",
         description:
           "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
-        image: '/src/public/chatbot.jpeg',
+        image: '/chatbot.jpeg',
         integrationType: "iframe",
         appUrl: "http://127.0.0.1:8503",
         status: "active",
@@ -28,7 +28,7 @@ const KnowledgeAgentPage = () => {
         name: "Document Q&A System",
         description:
           "AI-powered document question-answering system that extracts insights from large document repositories with natural language queries.",
-        image: '/src/public/document_qa.jpg',
+        image: '/document_qa.jpg',
         integrationType: "iframe",
         appUrl: "http://localhost:8504",
         status: "active",
@@ -38,7 +38,7 @@ const KnowledgeAgentPage = () => {
         name: "Knowledge Base Assistant",
         description:
           "Intelligent assistant that helps users navigate and extract information from complex knowledge bases and documentation.",
-        image: '/src/public/knowledge_base.jpg',
+        image: '/knowledge_base.jpg',
         integrationType: "iframe",
         appUrl: "http://localhost:8505",
         status: "active",

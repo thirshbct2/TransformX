@@ -25,7 +25,7 @@ const verticals: Vertical[] = [
     title: 'Responsible AI',
     icon: <Building className="w-8 h-8" />,
     description: 'From outputs to insights, Responsible AI made measurable.',
-    image: 'responsible.jpg',
+    image: '/responsible.jpg',
     projects: [
       {
         id: 'rai-hub-legacy',
@@ -196,7 +196,7 @@ function App() {
 
     return <HomePage verticals={verticals} onVerticalClick={handleVerticalClick} />;
   };
-  
+
   function VerticalRoute() {
   const { id } = useParams();
 
