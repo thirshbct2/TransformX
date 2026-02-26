@@ -138,7 +138,7 @@ const verticals: Vertical[] = [
         name: 'Truck Congestion Predictor',
         description: 'Predicting truck congestion',
         image: '/src/public/truck_congestion.jpg',
-        appUrl: 'https://voice-based-form-filling-1-jcwk.onrender.com',
+        appUrl: 'https://truck-congestion.onrender.com/',
         integrationType: 'iframe',
         status: 'active',
         tags: ['ML-studio', 'legacy'],
