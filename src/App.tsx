@@ -24,7 +24,7 @@ const verticals: Vertical[] = [
     title: 'Responsible AI',
     icon: <Building className="w-8 h-8" />,
     description: 'From outputs to insights, Responsible AI made measurable.',
-    image: '/src/public/responsible.jpg',
+    image: 'responsible.jpg',
     projects: [
       {
         id: 'rai-hub-legacy',
@@ -53,7 +53,7 @@ const verticals: Vertical[] = [
     title: 'AI at SDLC',
     icon: <Code className="w-8 h-8" />,
     description: 'Accelerate software development with AI-powered tools',
-    image: '/src/public/ai@sdlc.jpg',
+    image: '/ai@sdlc.jpg',
     projects: [
       {
         id: 'ui-code-assistant',
@@ -92,7 +92,7 @@ const verticals: Vertical[] = [
     title: 'BCT AI Studio',
     icon: <Server className="w-8 h-8" />,
     description: 'Enabling AI innovation with secure, offline and local execution.',
-    image: 'src/public/on_prem.png',
+    image: '/on_prem.png',
     projects: [
       {
         id: 'model',
@@ -111,7 +111,7 @@ const verticals: Vertical[] = [
     title: 'BCT ML Studio',
     icon: <Server className="w-8 h-8" />,
     description: 'Build. Train. Experiment. Export.',
-    image: '/src/public/ml_studio.jpg',
+    image: '/ml_studio.jpg',
     projects: [
       {
         id: 'ML-FLOW',
@@ -127,7 +127,7 @@ const verticals: Vertical[] = [
         id: 'anamoly',
         name: 'Anamoly Detection',
         description: 'Track. Analyze. Optimize performance.',
-        image: '/src/public/anamoly.jpg',
+        image: '/anamoly.jpg',
         appUrl: 'https://anomaly-detection-pyto.onrender.com/',
         integrationType: 'iframe',
         status: 'active',
@@ -137,7 +137,7 @@ const verticals: Vertical[] = [
         id: 'truck_congestion',
         name: 'Truck Congestion Predictor',
         description: 'Predicting truck congestion',
-        image: '/src/public/truck_congestion.jpg',
+        image: '/truck_congestion.jpg',
         appUrl: 'https://truck-congestion.onrender.com/',
         integrationType: 'iframe',
         status: 'active',

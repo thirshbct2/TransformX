@@ -113,7 +113,7 @@ const BankingPage = () => {
     description:
       "Transform your banking operations with AI-powered solutions for fraud detection, customer experience, compliance, and digital payments.",
     image:
-      "/src/public/bank.jpg",
+      "/bank.jpg",
     icon: <Building2 className="w-12 h-12" />,
     projects: [
       {
@@ -121,7 +121,7 @@ const BankingPage = () => {
         name: "Churn Prediction",
         description:
           "An AI-powered solution that identifies customers at risk of leaving the bank by analyzing transaction patterns, engagement behavior, and demographics.",
-        image: '/src/public/churn.jpg',
+        image: '/churn.jpg',
         integrationType: "iframe",
         appUrl: "https://ml-platform-train.onrender.com",
         status: "active",
@@ -131,7 +131,7 @@ const BankingPage = () => {
         name: "Voice Based form filling Bot",
         description:
           "A voice-based form-filling bot enables users to complete digital forms through speech input, improving accessibility, reducing manual typing, and ensuring faster, hands-free data entry with real-time validation and feedbac",
-        image: '/src/public/chatbot.jpeg',
+        image: '/chatbot.jpeg',
         integrationType: "iframe",
         appUrl: "https://voice-based-form-filling-1-jcwk.onrender.com",
         status: "active",
@@ -141,7 +141,7 @@ const BankingPage = () => {
         name: "Transaction Anomaly Detection",
         description:
           "An AI-driven system that monitors banking transactions in real time to detect unusual or fraudulent activities using machine learning and statistical models.",
-        image: '/src/public/anamoly_bank.jpg',
+        image: '/anamoly_bank.jpg',
         integrationType: "iframe",
         appUrl: "https://voice-based-form-filling-1-jcwk.onrender.com",
         status: "active",
@@ -151,7 +151,7 @@ const BankingPage = () => {
         name: "Intelligent Document Processing",
         description:
           "Intelligent Document Processing automates the understanding of unstructured documents using AI and machine learning, enabling smart data extraction, classification, and validation for faster, more accurate digital transformation.",
-        image: '/src/public/anamoly_bank.jpg',
+        image: '/anamoly_bank.jpg',
         integrationType: "iframe",
         appUrl: "https://voice-based-form-filling-1-jcwk.onrender.com",
         status: "active",
@@ -161,7 +161,7 @@ const BankingPage = () => {
         name: "RAG Based Chatbot",
         description:
           "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
-        image: '/src/public/chatbot.jpeg',
+        image: '/chatbot.jpeg',
         integrationType: "iframe",
         appUrl: "http://localhost:3001/",
         status: "active",
@@ -171,7 +171,7 @@ const BankingPage = () => {
         name: "Document Q&A System",
         description:
           "AI-powered document question-answering system that extracts insights from large document repositories with natural language queries.",
-        image: '/src/public/churn.jpg',
+        image: '/churn.jpg',
         integrationType: "iframe",
         appUrl: "http://localhost:3000/",
         status: "active",
