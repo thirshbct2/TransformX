@@ -107,7 +107,7 @@ export const ProjectLoader: React.FC<ProjectLoaderProps> = ({ project, onBack })
           className="flex-1 w-full border-0"
           title={project.name}
           sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-top-navigation-by-user-activation"
-          allow="fullscreen; clipboard-read; clipboard-write"
+          allow="fullscreen; clipboard-read; clipboard-write; camera; microphone"
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>

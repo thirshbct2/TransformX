@@ -117,7 +117,7 @@ const verticals: Vertical[] = [
         id: 'ML-FLOW',
         name: 'ML Platform',
         description: 'From data to model—ready for your use',
-        image: '/src/public/ml_studio.jpg',
+        image: '/ml_studio.jpg',
         appUrl: 'https://ml-platform-train.onrender.com',
         integrationType: 'iframe',
         status: 'active',
