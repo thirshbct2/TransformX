@@ -23,7 +23,11 @@ interface HomePageProps {
 }
 
 function HomePage({ verticals, onVerticalClick }: HomePageProps) {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
+  const [industryOpen, setIndustryOpen] = useState(false);
+  const [acceleratorOpen, setAcceleratorOpen] = useState(false);
+
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -35,13 +39,13 @@ function HomePage({ verticals, onVerticalClick }: HomePageProps) {
             <nav className="hidden md:flex space-x-8">
               <div className="relative">
                 <button
-                  onClick={() => setOpen(!open)}
+                  onClick={() => setIndustryOpen(!industryOpen)}
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Industry Solutions ▾
                 </button>
 
-                {open && (
+                {industryOpen && (
                   <div className="absolute left-0 mt-2 w-48  shadow-lg bg-indigo-900 ring-1 ring-black ring-opacity-5 z-50">
                     <div className="py-1">
                       <a
@@ -54,9 +58,48 @@ function HomePage({ verticals, onVerticalClick }: HomePageProps) {
                   </div>
                 )}
               </div>
-              <a href="/knowledge-agent" className="text-gray-300 hover:text-white transition-colors duration-300">Knowledge Agent</a>
-              <a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">About</a>
-              <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+              <div className="relative">
+                <button
+                  onClick={() => setAcceleratorOpen(!acceleratorOpen)}
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
+                  Accelerators ▾
+                </button>
+
+                {acceleratorOpen && (
+                  <div className="absolute left-0 mt-2 w-48  shadow-lg bg-indigo-900 ring-1 ring-black ring-opacity-5 z-50">
+                    <div className="py-1">
+                      <a
+                        href="/knowledge-agent"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-indigo-800 hover:text-white"
+                      >
+                        Document AI
+                      </a>
+                      <a
+                        href="/vertical/rai-hub"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-indigo-800 hover:text-white"
+                      >
+                        Responsible AI
+                      </a>
+                      <a
+                        href="/vertical/ai-sdlc"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-indigo-800 hover:text-white"
+                      >
+                        AI at SDLC
+                      </a>
+                      <a
+                        href="/vertical/ml-flow"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-indigo-800 hover:text-white"
+                      >
+                        ML Studio
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </div>
+              {/* <a href="/knowledge-agent" className="text-gray-300 hover:text-white transition-colors duration-300">Accelerators</a> */}
+              {/* <a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+              <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">Contact</a> */}
             </nav>
           </div>
         </div>

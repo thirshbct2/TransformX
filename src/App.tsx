@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { useParams } from "react-router-dom";
 import HomePage from './components/HomePage';
 import VerticalPage from './components/VerticalPage';
+import VerticalRoute from './components/VerticalRoute';
 import BankingPage from './components/BankingPage';
 import KnowledgeAgentPage from './components/KnowledgeAgentPage';
 import { ProjectLoader } from './components/ProjectLoader';
@@ -195,6 +196,24 @@ function App() {
 
     return <HomePage verticals={verticals} onVerticalClick={handleVerticalClick} />;
   };
+  
+  function VerticalRoute() {
+  const { id } = useParams();
+
+  const vertical = verticals.find(v => v.id === id);
+
+  if (!vertical) {
+    return <div>Vertical not found</div>;
+  }
+
+  return (
+    <VerticalPage
+      vertical={vertical}
+      onBack={() => window.history.back()}
+      onProjectClick={() => {}}
+    />
+  );
+}
 
   return (
     <Router>
@@ -204,6 +223,7 @@ function App() {
 
         {/* Industry Solutions routes */}
         <Route path="/banking" element={<BankingPage />} />
+         <Route path="/vertical/:id" element={<VerticalRoute />} />
         <Route path="/knowledge-agent" element={<KnowledgeAgentPage />} />
       </Routes>
     </Router>
