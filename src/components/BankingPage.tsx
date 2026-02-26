@@ -143,7 +143,7 @@ const BankingPage = () => {
           "An AI-driven system that monitors banking transactions in real time to detect unusual or fraudulent activities using machine learning and statistical models.",
         image: '/anamoly_bank.jpg',
         integrationType: "iframe",
-        appUrl: "https://voice-based-form-filling-1-jcwk.onrender.com",
+        appUrl: "https://transaction-anomaly-detection.onrender.com/",
         status: "active",
       },
       {
@@ -153,7 +153,7 @@ const BankingPage = () => {
           "Intelligent Document Processing automates the understanding of unstructured documents using AI and machine learning, enabling smart data extraction, classification, and validation for faster, more accurate digital transformation.",
         image: '/anamoly_bank.jpg',
         integrationType: "iframe",
-        appUrl: "https://voice-based-form-filling-1-jcwk.onrender.com",
+        appUrl: "https://intelligent-document-processor-1.onrender.com/",
         status: "active",
       },
       {
