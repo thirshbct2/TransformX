@@ -13,36 +13,36 @@ const KnowledgeAgentPage = () => {
     image: "/knowledge_agent.jpg",
     icon: <Brain className="w-12 h-12" />,
     projects: [
-      {
-        id: "rag-chatbot",
-        name: "RAG Based Chatbot",
-        description:
-          "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
-        image: '/chatbot.jpeg',
-        integrationType: "iframe",
-        appUrl: "http://127.0.0.1:8503",
-        status: "active",
-      },
+      // {
+      //   id: "rag-chatbot",
+      //   name: "RAG Based Chatbot",
+      //   description:
+      //     "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
+      //   image: '/chatbot.jpeg',
+      //   integrationType: "iframe",
+      //   appUrl: "http://127.0.0.1:8503",
+      //   status: "active",
+      // },
       {
         id: "document-qa",
         name: "Document Q&A System",
         description:
           "AI-powered document question-answering system that extracts insights from large document repositories with natural language queries.",
-        image: '/document_qa.jpg',
+        image: '/chatbot.jpeg',
         integrationType: "iframe",
-        appUrl: "http://localhost:8504",
+        appUrl: "https://document-suite-2.onrender.com",
         status: "active",
-      },
-      {
-        id: "knowledge-base",
-        name: "Knowledge Base Assistant",
-        description:
-          "Intelligent assistant that helps users navigate and extract information from complex knowledge bases and documentation.",
-        image: '/knowledge_base.jpg',
-        integrationType: "iframe",
-        appUrl: "http://localhost:8505",
-        status: "active",
-      },
+       }
+      // {
+      //   id: "knowledge-base",
+      //   name: "Knowledge Base Assistant",
+      //   description:
+      //     "Intelligent assistant that helps users navigate and extract information from complex knowledge bases and documentation.",
+      //   image: '/knowledge_base.jpg',
+      //   integrationType: "iframe",
+      //   appUrl: "http://localhost:8505",
+      //   status: "active",
+      // },
     ],
   };
 

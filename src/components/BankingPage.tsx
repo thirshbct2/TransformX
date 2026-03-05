@@ -156,16 +156,16 @@ const BankingPage = () => {
         appUrl: "https://intelligent-document-processor-1.onrender.com/",
         status: "active",
       },
-      {
-        id: "rag-chatbot",
-        name: "RAG Based Chatbot",
-        description:
-          "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
-        image: '/chatbot.jpeg',
-        integrationType: "iframe",
-        appUrl: "http://localhost:3001/",
-        status: "active",
-      },
+      // {
+      //   id: "rag-chatbot",
+      //   name: "RAG Based Chatbot",
+      //   description:
+      //     "An intelligent chatbot that retrieves accurate answers from documents using Retrieval-Augmented Generation for precise, context-aware responses.",
+      //   image: '/chatbot.jpeg',
+      //   integrationType: "iframe",
+      //   appUrl: "http://localhost:3001/",
+      //   status: "active",
+      // },
       {
         id: "document-qa",
         name: "Document Q&A System",
@@ -173,7 +173,7 @@ const BankingPage = () => {
           "AI-powered document question-answering system that extracts insights from large document repositories with natural language queries.",
         image: '/churn.jpg',
         integrationType: "iframe",
-        appUrl: "http://localhost:3000/",
+        appUrl: "https://document-suite-2.onrender.com",
         status: "active",
       },
     ],
