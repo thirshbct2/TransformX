@@ -32,7 +32,7 @@ const verticals: Vertical[] = [
         name: 'Responsible AI (RAI) Hub',
         description: 'AI-powered interface design and development assistant',
         image: 'https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg',
-        appUrl: ' http://localhost:5173/',
+        appUrl: 'https://rag-eval-1.onrender.com/',
         integrationType: 'iframe',
         status: 'active',
         tags: ['responsible-ai', 'legacy'],
@@ -210,7 +210,7 @@ function App() {
     <VerticalPage
       vertical={vertical}
       onBack={() => window.history.back()}
-      onProjectClick={() => {}}
+      onProjectClick={(project) => window.open(project.appUrl, "_blank")}
     />
   );
 }
